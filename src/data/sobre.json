@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o CMMANAUS"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "Fundadora do CMMANAUS, sou professora formada em pedagogia pela Faculdade Federal de Manaus. Dedico minha vida ao ensino e ao compartilhamento de conhecimento."
+  },
+  "content": "O CMMANAUS surgiu da minha paixão pela educação e pela vontade de transformar a vida de alunos e pais. Aqui você encontrará um espaço de aprendizado acessível e valioso.",
+  "mission": "Nossa missão é democratizar o acesso à educação, proporcionando conteúdo de qualidade que enfrente os desafios da aprendizagem.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "1.200+",
+      "label": "Artigos"
+    },
+    {
+      "value": "300k+",
+      "label": "Alunos"
+    },
+    {
+      "value": "25",
+      "label": "Professores"
+    }
+  ],
+  "team": []
+}

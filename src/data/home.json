@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "CMMANAUS — CMMANAUS – Educação para Todos",
+    "description": "Aprenda de forma clara e gratuita com Renata Padilha."
+  },
+  "hero": {
+    "title": "CMMANAUS – Educação para Todos",
+    "subtitle": "Aprenda de forma clara e gratuita com Renata Padilha.",
+    "btnText": "Inscreva-se na Newsletter",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "O que oferecemos",
+    "items": [
+      {
+        "icon": "📚",
+        "title": "Conteúdo Abrangente",
+        "desc": "Artigos e materiais para todos os níveis de conhecimento, sejam iniciantes ou avançados."
+      },
+      {
+        "icon": "🎓",
+        "title": "Experiência Profissional",
+        "desc": "Mais de 20 anos de experiência em sala de aula, com abordagem prática e efetiva."
+      },
+      {
+        "icon": "✍️",
+        "title": "Recursos Diversificados",
+        "desc": "Compartilhamos informações, dicas e recursos para pais e crianças."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Renata Padilha",
+    "desc": "Fundadora do CMMANAUS, sou professora formada em pedagogia pela Faculdade Federal de Manaus. Dedico minha vida ao ensino e ao compartilhamento de conhecimento.",
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Anos de Experiência"
+      },
+      {
+        "value": "3",
+        "label": "Anos de CMMANAUS"
+      },
+      {
+        "value": "100%",
+        "label": "Conteúdo Gratuito"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}

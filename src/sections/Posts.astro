@@ -1,0 +1,56 @@
+---
+// Posts-F: Typography-Focused Minimalist - Design editorial de alto padrão
+import { getAllPosts } from '../lib/posts';
+interface Props { title: string; limit: number; btnText: string; btnLink: string; }
+const { title, limit, btnText, btnLink } = Astro.props;
+
+const posts = (await getAllPosts()).slice(0, limit);
+---
+<section class="py-24 bg-white border-y border-gray-100 relative">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="text-center mb-24">
+      <h2 class="text-3xl md:text-5xl font-black text-dark tracking-tighter italic mb-4">{title}</h2>
+      <div class="w-12 h-1 bg-primary mx-auto rounded-full"></div>
+    </div>
+
+    <div class="space-y-20">
+      {posts.map((post, i) => (
+        <article class="group relative flex flex-col items-center text-center">
+          <div class="text-[10px] font-black uppercase tracking-[0.4em] text-primary mb-6 transition-all group-hover:tracking-[0.6em]">
+            {post.category || 'Blog'}
+          </div>
+          
+          <h3 class="text-3xl md:text-5xl font-black text-dark leading-tight tracking-tight mb-8 hover:text-primary transition-colors max-w-2xl">
+             <a href={`/${post.slug}`}>{post.title}</a>
+          </h3>
+          
+          <p class="text-lg text-gray-500 leading-relaxed font-serif italic mb-8 max-w-xl">
+            "{post.description.substring(0, 150)}..."
+          </p>
+
+          <footer class="flex items-center gap-6">
+             <div class="text-[11px] font-black uppercase tracking-widest text-dark border-b border-primary/30 pb-1">
+                Por Editoria Digital
+             </div>
+             <span class="w-1 h-1 rounded-full bg-gray-200"></span>
+             <time class="text-[11px] font-bold text-gray-400 uppercase tracking-widest">
+                {new Date(post.pubDate).toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' })}
+             </time>
+          </footer>
+
+          {i < posts.length - 1 && (
+            <div class="absolute -bottom-10 left-1/2 -translate-x-1/2 w-8 h-8 flex items-center justify-center text-gray-200 select-none font-serif italic">
+               &spon;
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
+
+    <div class="mt-24 text-center">
+       <a href={btnLink} class="px-12 py-5 border-2 border-dark text-dark font-black rounded-2xl hover:bg-dark hover:text-white transition-all uppercase tracking-widest text-[10px]">
+          {btnText} 
+       </a>
+    </div>
+  </div>
+</section>

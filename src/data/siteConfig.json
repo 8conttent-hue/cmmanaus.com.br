@@ -1,0 +1,53 @@
+{
+  "name": "CMMANAUS",
+  "slug": "cmmanaus.com.br",
+  "description": "Criei esse blog a 3 anos, sempre passando todo meu conhecimento de forma clara e gratuita para que todas as pessoas possam desfrutar desses meus anos nas salas de aula. Eu escrevo para todos os públicos, de todos os níveis de conhecimento, iniciante ou avançado. Sempre terei um espaço reservado para você. Sempre irei compartilhar todo o tipo de conteúdo que envolva educação. Para acompanhar esse rico e belo conteúdo, baste se inscrever em minha newsletter. Renata Padilha Olá! Meu nome é Renata Padilha, tenho 45 anos, sou fundadora do Cmanaus. Uma pessoa do bem com o objetivo de ajudar pais e crianças que buscam conteúdo e informação sobre educação. Sou Professora a mais de 20 anos, formada em pedagogia pela Faculdade Federal de Manaus. Trabalhei toda minha vida com o ensino militar. Este blog foi criado para transmitir meu conhecimento e experiências pessoais adquiridas ao longo dos anos nas salas de aula. Busquei sempre formar uma equipe de professores bem capacitados para me ajudar nessa jornada.",
+  "url": "https://cmmanaus.com.br",
+  "niche": "Educação",
+  "keywords": "Criei esse blog a 3 anos sempre passando todo meu conhecimento de",
+  "email": "contato@cmmanaus.com.br",
+  "palette": "rose",
+  "colors": {
+    "primary": "#e11d48",
+    "accent": "#9f1239",
+    "dark": "#4c0519"
+  },
+  "headerContrast": "light",
+  "font": "outfit",
+  "fontFamily": "'Outfit', sans-serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap",
+  "components": {
+    "header": "Header-H",
+    "hero": "Hero-B",
+    "features": "Features-D",
+    "about": "About-B",
+    "posts": "Posts-F",
+    "footer": "Footer-B",
+    "sobre": "Sobre-G",
+    "contato": "Contato-A"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}
